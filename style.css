@@ -1,3 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: black;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +17,36 @@
     clear: both;
 }
 
+h1,
+h2, 
+h3,
+p {
+    margin-bottom: 20px;
+}
 
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: hotpink;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid greenyellow;
+}
+
+h2,
+h3 {
+    font-size: 22px;
+}
 
 /* header */
 #masthead {
@@ -21,6 +57,11 @@
     color: white;
     background: blue;
     border-bottom: 2px solid #ccc;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -84,7 +125,7 @@ h3, .sidebar h2 {
     margin-right: 5px;
 }
 
-/* porfolio page */
+/* portfolio page */
 .work {
     position: relative;
     float: left;
@@ -125,6 +166,7 @@ h3, .sidebar h2 {
     margin-right: 25px;
 }
 
+/* contact page */
 
 
 
